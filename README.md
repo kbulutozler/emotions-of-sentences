@@ -1,2 +1,2 @@
 # emotions-of-sentences
-Analyzing sentences to detect if they are positive or negative. Based on Andrew Ng's 5th course of Deep Learning Specialization.
+This repository is for me (and maybe for you) to understand a very simple NLP task: detecting if a given sentence is positive or negative. GloVe's pretrained word vectors are used. Both NumPy and Keras are used. This has a very small training set, but pretrained vectors are sufficient to get a decent accuracy. I used 300 dimensional GloVe vector. More dimension means more accuracy in this case. 
